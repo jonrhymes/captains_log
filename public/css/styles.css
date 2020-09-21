@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    font-family: 'DM Mono', monospace;
+}
+
+.title {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    letter-spacing: .5em;
+}
+
+.title-span {
+    font-size: 20px;
+    letter-spacing: .1em;
+    color: gold;
+}
+
+.communique {
+    margin-bottom: .5em;
+}
+
+.incoming {
+    background-color: rgb(84, 129, 193);
+    padding: 0 20px 0 20px;
+}
+
+.from {
+    background-color: rgb(84, 129, 193);
+    padding: 0 20px;
+}
+
+.children-container {
+    margin: 20px;
+}
+
+.submit-log {
+    background-color: gold;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.create-btn {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 7px 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: -2px;
+}
+
+.create-btn:hover {
+    background-color: rgb(22, 67, 173);
+    border: 2px gold solid;
+}
+
+
+input {
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 5px;
+    border: 2px gold solid;
+}
+
+input:hover {
+    border: 2px solid rgb(22, 67, 173);
+}
+
+.add-div {
+    margin-bottom: 20px;
+}
+
+.add {
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: gold;
+    padding: 7px;
+}
+
+.add:hover {
+    background-color: black;
+    color: gold;
+}
+
+.show-link {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.show-link:hover {
+    color: gold;
+}
+
+.show-entry {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.list {
+    margin-bottom: 1em;
+}
+
+.delete {
+    background-color: rgb(226, 102, 102);
+    border: 2px red solid;
+}
+
+.delete:hover{
+    border: 2px red solid;
+    background-color: red;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.edit {
+    background-color: rgb(22, 67, 173);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 2em;
+}
+
+.edit:hover {
+    background-color: gold;
+    color: black;
+}
+
+.back {
+    text-decoration: none;
+    padding: 0;
+    color: black; 
+}
+
+.back:hover {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.commit {
+    font-size: 15px;
+    margin-left: -2px;
+}
+
+.commit:hover {
+    background-color: rgb(22, 67, 173);
+    color: white;
+}
+
+.new {
+    margin-top: 10px;
+}
+
+.edit-head {
+    margin-top: 10px;
+}
